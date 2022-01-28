@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Cifrar.me
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="cifrar.css">
+</head>
+
+<body>
+<!--header -->
+<script src="cifrar.js"></script>
+<div id="overlay" class="grid-container">
+
+    <div id="header" class="grid-item">
+
+        <img href="/Users/abedev/Downloads/Logo.png" id="alura-logo"></img>
+
+    </div>
+
+
+    <main class="main">
+        <section class="form box">
+          <form action="">
+            <label for="input-texto">Ingrese aquí su texto.</label>
+            <br>
+            <br>
+            <div class="contenedor-errores"></div>
+            <textarea class="text-input" name="" id="input-texto" cols="45" rows="12" autocomplete="off" autofocus placeholder= "Recuerde no usar letras mayúsculas, acentos ni símbolos."></textarea>
+            <input class="btn" type="button" value="Encriptar!" id="btn-encriptar">
+            <input class="btn" type="button" value="Desencriptar!" id="btn-desencriptar">
+            <input class="btn" type="button" value="ClearAll" id="btn-Clear">
+                                         
+          </form>
+        </section>
+      
+        <section class="msg box"> 
+          
+          <label for="input-texto">Mensaje Encriptado/Desencriptado.</label>
+          <br>
+          <br>
+          <textarea  class= "text-input" name="" id="msg" cols="45" rows="12" placeholder= "Su Mensaje encriptado/desencriptado aparecerá aquí."></textarea>
+          <input class="btn" type="button"value="Copiar Texto" id="btn-Copiar"></input>
+          
+        </section>
+    
+          
+      </main>
+    
+      <footer class="footer"> "Programa creado por ©Diego Polop para Challenge Allura"</footer>
+</div>
+</body>
+</html>
